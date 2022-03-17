@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Oswald:wght@300;400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Sintony:wght@400;700&display=swap");
+
+/* ------------ VARIABLES ------------ */
+/* ----------- COLORS ----------- */
+$dark:#161614;
+$light:#FFFCF2;
+$dgray:#353434;
+$lgray:#cecece;
+$pcolor:#EB5E28;
+$scolor:#d3913b;
+
+/* ----- FONT | TYPOGRAPHY ----- */
+$body-font: "Poppins", sans-serif;
+$title-font: "Oswald", sans-serif;
+$span-font: "Sintony", sans-serif;
+
+$big-fs: 2rem;
+$h1-fs: 1.5rem;
+$h2-fs: 1.25rem;
+$h3-fs: 1rem;
+$normal-fs: 0.938rem;
+$small-fs: 0.813rem;
+$smaller-fs: 0.75rem;
+
+/*- ------- FONT WEIGHT -------- */
+$fw-thin: 300;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-black: 900;
+
+/* ---------- BG IMGS ---------- */
+/* --------- VARIABLES --------- */
+/* --------- VARIABLES --------- */
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+    $big-fs: 3rem;
+    $h1-fs: 2.25rem;
+    $h2-fs: 1.5rem;
+    $h3-fs: 1.25rem;
+    $normal-fs: 1rem;
+    $small-fs: 0.875rem;
+    $smaller-fs: 0.813rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $dark;
+    color: $pcolor;
+    font-family: $body-font;
+    font-size: $h1-fs;
+  }
+
+.container {
+    & .forms {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    }
+
+}
