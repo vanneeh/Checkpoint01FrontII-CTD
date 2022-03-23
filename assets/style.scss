@@ -252,6 +252,10 @@ p {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .actions{
+        max-width: 300px;
+    }
 }
 
 @media (min-width:1024px) {
@@ -265,29 +269,38 @@ p {
     .forms {
         height: 30vh;
         max-height: 650px;
-    }
-
-    form {
         display: flex;
         flex-direction: column;
-        align-self: center;
-        justify-content: center;
+    }
+
+    .form {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .infos {
+        width: 450px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px;
     }
 
     .feed {
         height: 95vh;
         max-height: 650px;
-
     }
 
     .feed__cards {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .actions{
+        display: flex;
+        justify-content: space-around;
+        max-width: 300px;
     }
 }
